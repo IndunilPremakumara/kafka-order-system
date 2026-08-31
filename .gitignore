@@ -1,0 +1,45 @@
+# --- Python ---
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.python-version
+
+# --- Testing ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# --- Kafka / local runtime data ---
+# Broker state and any dumped message payloads: regenerable, and large.
+kafka-data/
+data/
+logs/
+*.log
+*.avro
+
+# --- Secrets ---
+# Never commit broker credentials or connection strings.
+.env
+.env.*
+*.pem
+*.key
+
+# --- Editors ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
