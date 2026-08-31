@@ -49,7 +49,7 @@ pip install -r requirements.txt
 ## Checklist
 
 - [x] Avro schema and codec
-- [ ] Producer
+- [x] Producer
 - [ ] Consumer
 - [ ] Real-time running average
 - [ ] Retry logic
