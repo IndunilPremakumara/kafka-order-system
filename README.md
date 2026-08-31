@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 - [x] Avro schema and codec
 - [x] Producer
-- [ ] Consumer
+- [x] Consumer
 - [ ] Real-time running average
 - [ ] Retry logic
 - [ ] Dead letter queue
